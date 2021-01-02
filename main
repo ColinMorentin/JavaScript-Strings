@@ -1,4 +1,6 @@
-import  {countCharacter, capitalizeFirstCharacterOfWords,reverseWord, reverseAllWords, replaceFirstOccurence, replaceAllOccurrences, encode, MessageMixer, pigLatin, palindrome} from './messageMixer.js';
+import  {countCharacter, capitalizeFirstCharacterOfWords,reverseWord, reverseAllWords,
+replaceFirstOccurence, replaceAllOccurrences, encode, MessageMixer, pigLatin, palindrome} 
+from './messageMixer.js';
 
 function displayMessage() {
   console.log(countCharacter("What is the color of the sky?", "t"));
